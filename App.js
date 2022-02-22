@@ -16,6 +16,7 @@ import Chat from './screens/Chat';
 import Group from './screens/Group';
 import GroupChat from './screens/GroupChat';
 import AddGroup from './screens/AddGroup';
+import AddGroupPart from './screens/AddGroupPart';
 // import { initializeApp } from "firebase/app"
 import firebase from 'firebase/compat/app';
 import "firebase/compat/auth";
@@ -67,6 +68,7 @@ export default function App( ) {
             <Stack.Screen name="Group" options={{ headerShown: false, tabBarVisible: false}} component={Group} />
             <Stack.Screen name="GroupChat" options={{ headerShown: false, tabBarVisible: false}} component={GroupChat} />
             <Stack.Screen name="AddGroup" options={{ headerShown: false, tabBarVisible: false}} component={AddGroup} />
+            <Stack.Screen name="AddGroupPart" options={{ headerShown: false, tabBarVisible: false}} component={AddGroupPart} />
           </Stack.Navigator>:
 
           <Stack.Navigator> 
